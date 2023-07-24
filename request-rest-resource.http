@@ -1,0 +1,38 @@
+@server = https://evalm07-glorious-succotash-jxwwjvqpp7vcq69g-8080.preview.app.github.dev
+
+########
+GET {{server}}
+
+########
+GET {{server}}/cursos
+
+########
+GET {{server}}/cursos?size=2
+
+########
+GET {{server}}/cursos?size=2&page=1
+
+########
+GET {{server}}/cursos?sort=creditos.desc
+
+########
+GET {{server}}/cursos?size=2&page=1&sort=creditos.desc
+
+######## AGREGAR
+POST {{server}}/cursos
+Content-Type: application/json
+{"nombre":"Compiladores", "creditos": 5}
+
+######## MODIFICAR (PUT: para eliminar en fila con todos los datos)
+PATCH {{server}}/cursos
+Content-Type: application/json
+{"creditos": 7}
+
+######## ELIMINAR
+DELETE {{server}}/cursos/2
+
+########
+GET {{server}}/profile/cursos
+
+########
+GET {{server}}/cursos/search/findByNombre?nombre=Algoritmos

@@ -1,4 +1,5 @@
-@server = https://evalm07-glorious-succotash-jxwwjvqpp7vcq69g-8080.preview.app.github.dev
+#@server = https://evalm07-glorious-succotash-jxwwjvqpp7vcq69g-8080.preview.app.github.dev
+@server = https://sem8eva.onrender.com
 @apiserver = {{server}}/api/curso
 
 ########
