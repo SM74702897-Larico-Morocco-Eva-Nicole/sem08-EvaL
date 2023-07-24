@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.sem8EvaL.Sem8EvaLApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.389 s - in com.example.sem8EvaL.Sem8EvaLApplicationTests
